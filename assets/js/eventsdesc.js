@@ -30,7 +30,7 @@ const events = {
         email: "fazal.khan@btech.christuniversity.in",
       },
     ],
-    register: "",
+    register: "https://forms.gle/CLkbHgqyY1ZfsqZM6",
   },
   adzap: {
     name: "AD-ZAP",
@@ -98,7 +98,7 @@ const events = {
         email: "avinash.bhalla@btech.christuniversity.in",
       },
     ],
-    register: "",
+    register: "https://forms.gle/Dem1C1wQrGPb98sG9",
   },
   vividinsights: {
     name: "Vivid Insights",
@@ -160,7 +160,7 @@ const events = {
         email: "alphy.jose@btech.christuniversity.in",
       },
     ],
-    register: "",
+    register: "https://forms.gle/k463Qd5pQHwVoopRA",
   },
   ensembleecho: {
     name: "Ensemble Echo",
@@ -219,7 +219,7 @@ const events = {
         email: "augadh.verma@btech.christuniversity.in",
       },
     ],
-    register: "",
+    register: "https://forms.gle/5jjqZp3AjT5mBomN6",
   },
   enigmaquest: {
     name: "Enigma Quest",
@@ -277,7 +277,7 @@ const events = {
         email: "prince.dhabuwala@btech.christuniveristy.in",
       },
     ],
-    register: "",
+    register: "https://forms.gle/whzBrheaheAK4bXD7",
   },
   aceclutch: {
     name: "Ace Clutch",
@@ -311,7 +311,7 @@ const events = {
         email: "prince.dhabuwala@btech.christuniversity.in",
       },
     ],
-    register: "",
+    register: "https://forms.gle/jATb6nCP77Mm9gXd8",
   },
   webcanvas: {
     name: "Web Canvas",
