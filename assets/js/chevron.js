@@ -1,141 +1,121 @@
 // $(".chevron").click(function(){
-//     $(this).toggleClass("rotatechevron"); 
+//     $(this).toggleClass("rotatechevron");
 // });
 
 function changechevron(id) {
-    document.getElementById(id).classList.toggle('rotatechevron');
+  document.getElementById(id).classList.toggle("rotatechevron");
 }
 
 // $('.dropdown').on('mouseover',()=>{
 //     $('.dropdown-parent').addClass('show');
 // })
-$('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
-  if (!$(this).next().hasClass('show')) {
-    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+$(".dropdown-menu a.dropdown-toggle").on("click", function (e) {
+  if (!$(this).next().hasClass("show")) {
+    $(this).parents(".dropdown-menu").first().find(".show").removeClass("show");
   }
   var $subMenu = $(this).next(".dropdown-menu");
-  $subMenu.toggleClass('show');
+  $subMenu.toggleClass("show");
 
-
-  $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
-    $('.dropdown-submenu .show').removeClass("show");
-  });
+  $(this)
+    .parents("li.nav-item.dropdown.show")
+    .on("hidden.bs.dropdown", function (e) {
+      $(".dropdown-submenu .show").removeClass("show");
+    });
 
   return false;
 });
 
 window.onload = () => {
-  document.getElementsByClassName('loader')[0].remove()
-  document.getElementsByTagName('html')[0].classList.remove('htmlll')
-}
+  document.getElementsByClassName("loader")[0].remove();
+  document.getElementsByTagName("html")[0].classList.remove("htmlll");
+};
 
-
-const events ={
-  "tech": [
+const events = {
+  tech: [
     {
-      id:"breakthequery",
-      name:"Break the query"
+      id: "connectxpo",
+      name: "ConnectXpo",
     },
     {
-      id:"codeathon",
-      name:"Codeathon"
+      id: "portfoliobuild",
+      name: "Portfolio-Building",
     },
     {
-      id:"illustra",
-      name:"Illustra"
+      id: "vividinsights",
+      name: "Vivid Insights",
     },
     {
-      id:"aihackathon",
-      name:"AI Hackathon"
+      id: "codexcite",
+      name: "CodeXcite",
     },
     {
-      id:"ideathon",
-      name:"Ideathon"
+      id: "gameverse",
+      name: "GameVerse",
     },
     {
-      id:"gamedevelopment",
-      name:"KB Games"
+      id: "webcanvas",
+      name: "Web Canvas",
     },
-    {
-      id:"cssbattle",
-      name:"CSS Battle"
-    },
-    {
-      id:"techquiz",
-      name:"Tech Quiz"
-    },
-    {
-      id:"webally",
-      name:"Webally"
-    }
   ],
-  "nontech": [
+  nontech: [
     {
-      id:"blindtyping",
-      name:"Blind Typing"
+      id: "adzap",
+      name: "AD-ZAP",
     },
     {
-      id:"openmic",
-      name:"Open Mic"
+      id: "bob",
+      name: "Battle of the Brains",
     },
     {
-      id:"flixnmanga",
-      name:"Flix N Manga"
+      id: "ensembleecho",
+      name: "Ensemble Echo",
     },
     {
-      id:"aceclutch",
-      name:"Ace Clutch"
+      id: "enigmaquest",
+      name: "Enigma Quest",
     },
     {
-      id:"imagebrush",
-      name:"Image Brush"
+      id: "aceclutch",
+      name: "Ace Clutch",
     },
-    {
-      id:"acciolanocien",
-      name:"Accio La Nocien"
-    }
   ],
-  "workshop":[
+  workshop: [
     {
-      id:"webdevworkshop",
-      name:"Web Development"
-    }
-    ,
+      id: "webdevworkshop",
+      name: "Web Development",
+    },
     {
-      id:"gamedevworkshop",
-      name:"Game Development"
-    }
-    ,
+      id: "gamedevworkshop",
+      name: "Game Development",
+    },
     {
-      id:"javaworkshop",
-      name:"Java Programming"
-    }
-    ,
+      id: "javaworkshop",
+      name: "Java Programming",
+    },
     {
-      id:"cworkshop",
-      name:"C Programming"
-    }
-    ,
+      id: "cworkshop",
+      name: "C Programming",
+    },
     {
-      id:"researchworkshop",
-      name:"Research"
-    }
-  ]
-}
+      id: "researchworkshop",
+      name: "Research",
+    },
+  ],
+};
 // import events from './events.json'
 // const events = require('../json/events.json');
 
-events.tech.map(event=>{
-  var elem = `<div onclick="window.location.href ='event.html?event=${event.id}';" class="elecard">${event.name}</div>`
-  document.getElementById('childdiv1').innerHTML += elem;
-})
+events.tech.map((event) => {
+  var elem = `<div onclick="window.location.href ='event.html?event=${event.id}';" class="elecard">${event.name}</div>`;
+  document.getElementById("childdiv1").innerHTML += elem;
+});
 
-events.nontech.map(event=>{
-  var elem = `<div onclick="window.location.href ='event.html?event=${event.id}';" class="elecard">${event.name}</div>`
-  document.getElementById('childdiv2').innerHTML += elem;
-})
+events.nontech.map((event) => {
+  var elem = `<div onclick="window.location.href ='event.html?event=${event.id}';" class="elecard">${event.name}</div>`;
+  document.getElementById("childdiv2").innerHTML += elem;
+});
 
-events.workshop.map(event=>{
-  var elem = `<div onclick="window.location.href ='event.html?event=${event.id}';" class="elecard">${event.name}</div>`
-  document.getElementById('childdiv3').innerHTML += elem;
-})
+events.workshop.map((event) => {
+  var elem = `<div onclick="window.location.href ='event.html?event=${event.id}';" class="elecard">${event.name}</div>`;
+  document.getElementById("childdiv3").innerHTML += elem;
+});
