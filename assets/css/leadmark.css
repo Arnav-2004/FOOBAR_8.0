@@ -12343,9 +12343,34 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/bg1.jpg) no-repeat center center fixed;
-  background-size: cover;
+  /* background: url(../imgs/bg1.jpg) no-repeat center center fixed; */
+  /* background-size: cover; */
   overflow: hidden;
+}
+
+.header img.foobarlogo {
+  max-width: 100%;
+  height: auto;
+  z-index: 2; /* Place the logo on top of the overlay */
+}
+
+.header h1.subtitle,
+.header h1.title {
+  margin: 0;
+  font-size: 2rem;
+  color: white;
+  z-index: 2; /* Place the titles on top of the overlay */
+}
+
+.header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0; /* Make sure the video is at the bottom */
+  opacity: 50%;
 }
 
 .header .overlay {
@@ -12544,8 +12569,8 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/bg1.jpg) no-repeat center top fixed;
-  background-size: cover;
+  /* background: url(../imgs/bg1.jpg) no-repeat center top fixed; */
+  /* background-size: cover; */
   color: #fff;
 }
 
@@ -12561,7 +12586,7 @@ textarea.form-control {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
   z-index: 1;
 }
 
@@ -12867,4 +12892,36 @@ ul li:hover .slider {
 ul li:hover .slider p {
   opacity: 1;
   transition: all 1s 0.2s ease;
+}
+
+#contact {
+  position: relative;
+  overflow: hidden;
+}
+
+#contact .bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 100%;
+}
+
+#contact .container,
+#contact .row,
+#contact .col-md-7 {
+  z-index: inherit;
+}
+
+#contact .col-md-7 form {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#contact .col-md-5,
+#contact .col-md-7 {
+  position: relative;
 }

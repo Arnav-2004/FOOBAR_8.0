@@ -52,10 +52,6 @@ const events = {
       id: "gameverse",
       name: "GameVerse",
     },
-    {
-      id: "webcanvas",
-      name: "Web Canvas",
-    },
   ],
   nontech: [
     {
@@ -71,34 +67,26 @@ const events = {
       name: "Ensemble Echo",
     },
     {
-      id: "enigmaquest",
-      name: "Enigma Quest",
-    },
-    {
       id: "aceclutch",
       name: "Ace Clutch",
+    },
+    {
+      id: "webcanvas",
+      name: "WebCanvas",
     },
   ],
   workshop: [
     {
-      id: "webdevworkshop",
-      name: "Web Development",
+      id: "llmworkshop",
+      name: "LLM Workshop",
     },
     {
-      id: "gamedevworkshop",
-      name: "Game Development",
+      id: "dataengines",
+      name: "Data Engines Workshop",
     },
     {
-      id: "javaworkshop",
-      name: "Java Programming",
-    },
-    {
-      id: "cworkshop",
-      name: "C Programming",
-    },
-    {
-      id: "researchworkshop",
-      name: "Research",
+      id: "gfb",
+      name: "Good First Bug",
     },
   ],
 };

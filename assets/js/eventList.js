@@ -1,70 +1,92 @@
 const eventList = {
-  six: [
+  five: [
     {
       id: "connectxpo",
-      name: "ConnectXpo",
-      time: "TBD",
+      name: "ConnectXpo - Ideation",
+      time: "12:00 PM",
       venue: "TBD",
       register: "https://forms.gle/CLkbHgqyY1ZfsqZM6",
       more: "event.html?event=connectxpo",
     },
+    {
+      id: "pixelscript",
+      name: "PixelScript",
+      time: "12:00 PM",
+      venue: "TBD",
+      register: "https://forms.gle/Dem1C1wQrGPb98sG9",
+      more: "event.html?event=pixelscript",
+    },
+    {
+      id: "vividinsights",
+      name: "Vivid Insights",
+      time: "4:00 PM",
+      venue: "TBD",
+      register: "https://forms.gle/3rXTxChwmbEgH7BaA",
+      more: "event.html?event=vividinsights",
+    },
+  ],
+  six: [
+    {
+      id: "vividinsights",
+      name: "Vivid Insights",
+      time: "4:00 PM",
+      venue: "TBD",
+      register: "https://forms.gle/3rXTxChwmbEgH7BaA",
+      more: "event.html?event=vividinsights",
+    },
   ],
   seven: [
     {
-      id: "adzap",
-      name: "AD-ZAP",
-      time: "TBD",
+      id: "webcanvas",
+      name: "WebCanvas",
+      time: "4:00 PM",
       venue: "TBD",
-      register: "",
-      more: "event.html?event=adzap",
+      register: "https://forms.gle/rFP1Tp4meknkj74F7",
+      more: "event.html?event=webcanvas",
     },
   ],
   eight: [
     {
-      id: "portfoliobuild",
-      name: "Portfolio-Building",
-      time: "TBD",
+      id: "webcanvas",
+      name: "WebCanvas",
+      time: "4:00 PM",
       venue: "TBD",
-      register: "https://forms.gle/Dem1C1wQrGPb98sG9",
-      more: "event.html?event=portfoliobuild",
+      register: "https://forms.gle/rFP1Tp4meknkj74F7",
+      more: "event.html?event=webcanvas",
     },
   ],
   nine: [
     {
-      id: "vividinsights",
-      name: "Vivid Insights",
-      time: "TBD",
+      id: "connectxpo",
+      name: "ConnectXpo - Components Assembly",
+      time: "11:00 PM",
       venue: "TBD",
-      register: "",
-      more: "event.html?event=vividinsights",
+      register: "https://forms.gle/CLkbHgqyY1ZfsqZM6",
+      more: "event.html?event=connectxpo",
+    },
+    {
+      id: "pixelscript",
+      name: "PixelScript (Presentation)",
+      time: "4:00 PM",
+      venue: "TBD",
+      register: "https://forms.gle/Dem1C1wQrGPb98sG9",
+      more: "event.html?event=pixelscript",
     },
   ],
   ten: [
     {
-      id: "bob",
-      name: "Battle of the Brains",
-      time: "4:00 PM",
-      venue: "213, Block II",
-      register: "https://forms.gle/k463Qd5pQHwVoopRA",
-      more: "event.html?event=bob",
-    },
-    {
-      id: "ensembleecho",
-      name: "Ensemble Echo",
-      time: "TBD",
-      venue: "TBD",
-      register: "",
-      more: "event.html?event=ensembleecho",
+      id: "aceclutch",
+      name: "Ace Clutch",
+      time: "9:00 AM",
+      venue: "CIS Lab",
+      register: "https://forms.gle/jATb6nCP77Mm9gXd8",
+      more: "event.html?event=aceclutch",
     },
   ],
   eleven: [
     {
-      id: "codexcite",
-      name: "CodeXcite",
-      time: "TBD",
-      venue: "TBD",
-      register: "https://forms.gle/5jjqZp3AjT5mBomN6",
-      more: "event.html?event=codexcite",
+      id: "nothing",
+      type: "noevent",
     },
   ],
   tweleve: [
@@ -75,56 +97,80 @@ const eventList = {
   ],
   thirteen: [
     {
-      id: "enigmaquest",
-      name: "Enigma Quest",
-      time: "TBD",
+      id: "nothing",
+      type: "noevent",
+    },
+  ],
+  fourteen: [
+    {
+      id: "adzap",
+      name: "AD-ZAP",
+      time: "4:00 PM",
       venue: "TBD",
-      register: "",
-      more: "event.html?event=enigmaquest",
+      register: "https://forms.gle/buanfjRfkNZFyMi48",
+      more: "event.html?event=adzap",
     },
     {
       id: "gameverse",
       name: "GameVerse",
+      time: "4:00 PM",
+      venue: "TBD",
+      register: "https://forms.gle/whzBrheaheAK4bXD7",
+      more: "event.html?event=gameverse",
+    },
+    {
+      id: "gfb",
+      name: "Good First Bug",
       time: "TBD",
+      venue: "TBD",
+      register: "https://docs.google.com/forms/d/e/1FAIpQLSe0NOfZax0y9t3S2bhbi_tWjPA8FyuRQDlbc6Da714Ae07iwg/viewform",
+      more: "event.html?event=gfb",
+    }
+  ],
+  fifteen: [
+    {
+      id: "ensembleecho",
+      name: "Ensemble Echo",
+      time: "4:00 PM",
+      venue: "TBD",
+      register: "https://forms.gle/H4TZe6yhCPgWq4B66",
+      more: "event.html?event=ensembleecho",
+    },
+    {
+      id: "gameverse",
+      name: "GameVerse",
+      time: "4:00 PM",
       venue: "TBD",
       register: "https://forms.gle/whzBrheaheAK4bXD7",
       more: "event.html?event=gameverse",
     },
   ],
-  fourteen: [
-    {
-      id: "aceclutch",
-      name: "Ace Clutch",
-      time: "9:00 AM",
-      venue: "CIS Lab",
-      register: "https://forms.gle/jATb6nCP77Mm9gXd8",
-      more: "event.html?event=aceclutch",
-    },
-    {
-      id: "webcanvas",
-      name: "Web Canvas",
-      time: "TBD",
-      venue: "TBD",
-      register: "https://forms.gle/Dem1C1wQrGPb98sG9",
-      more: "event.html?event=webcanvas",
-    },
-  ],
-  fifteen: [
-    {
-      id: "nothing",
-      type: "noevent",
-    },
-  ],
   sixteen: [
     {
-      id: "nothing",
-      type: "noevent",
+      id: "llmworkshop",
+      name: "LLM Workshop",
+      time: "9:00 AM",
+      venue: "TBD",
+      register: "https://forms.gle/H4TZe6yhCPgWq4B66",
+      more: "event.html?event=llmworkshop",
+    },
+    {
+      id: "bob",
+      name: "Battle of the Brains",
+      time: "4:00 PM",
+      venue: "213, Block II",
+      register: "https://forms.gle/k463Qd5pQHwVoopRA",
+      more: "event.html?event=bob",
     },
   ],
   seventeen: [
     {
-      id: "nothing",
-      type: "noevent",
+      id: "dataworkshop",
+      name: "Data Engines Hands-on Workshop",
+      time: "9:00 AM",
+      venue: "TBD",
+      register: "https://docs.google.com/forms/d/e/1FAIpQLSfpswWVmDNy_v2GmPWhVivOyrlJswHvQHmcBOl-3LS2mbqGKQ/viewform",
+      more: "event.html?event=dataworkshop",
     },
   ],
   eighteen: [
@@ -135,62 +181,12 @@ const eventList = {
   ],
   nineteen: [
     {
-      id: "nothing",
-      type: "noevent",
-    },
-  ],
-  twenty: [
-    {
-      id: "nothing",
-      type: "noevent",
-    },
-  ],
-  twentyone: [
-    {
-      id: "nothing",
-      type: "noevent",
-    },
-  ],
-  twentytwo: [
-    {
-      id: "nothing",
-      type: "noevent",
-    },
-  ],
-  twentythree: [
-    {
-      id: "nothing",
-      type: "noevent",
-    },
-  ],
-  twentyfour: [
-    {
-      id: "nothing",
-      type: "noevent",
-    },
-  ],
-  twentyfive: [
-    {
-      id: "nothing",
-      type: "noevent",
-    },
-  ],
-  twentysix: [
-    {
-      id: "nothing",
-      type: "noevent",
-    },
-  ],
-  twentyseven: [
-    {
-      id: "nothing",
-      type: "noevent",
-    },
-  ],
-  twentyeight: [
-    {
-      id: "nothing",
-      type: "noevent",
+      id: "codexcite",
+      name: "CodeXcite",
+      time: "9:00 AM",
+      venue: "TBD",
+      register: "https://forms.gle/5jjqZp3AjT5mBomN6",
+      more: "event.html?event=codexcite",
     },
   ],
 };
