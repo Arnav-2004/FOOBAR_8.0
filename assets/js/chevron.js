@@ -37,8 +37,8 @@ const events = {
       name: "ConnectXpo",
     },
     {
-      id: "portfoliobuild",
-      name: "Portfolio-Building",
+      id: "pixelscript",
+      name: "PixelScript",
     },
     {
       id: "vividinsights",
