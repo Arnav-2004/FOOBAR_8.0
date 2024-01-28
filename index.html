@@ -909,7 +909,7 @@
                         <div class="card-body tac cunset">
                             <div class="df">
                                 <div class="tac">
-                                    <img class="team-img" src="assets/imgs/members/dossier/samiksha.png" alt="">
+                                    <img class="team-img" src="assets/imgs/members/dossier/samiksha.jpeg" alt="">
                                     <h6 class="mt-1 mb-0">Samiksha Budhiraja</h6>
                                 </div>
                             </div>
@@ -973,7 +973,7 @@
                     <p></p>
                 </div>
                 <div class="col-md-7">
-                    <form>
+                    <form id="contactForm">
                         <h4 class="mb-4">Drop us a Line</h4>
                         <div class="form-row">
                             <div class="form-group col-sm-4">
@@ -1014,6 +1014,49 @@
             <source src="./assets/imgs/bg.mp4" type="video/mp4">
         </video>
     </section>
+
+    <script>
+        function submitForm() {
+            // Get form data
+            var name = document.getElementsByName('name')[0].value;
+            var email = document.getElementsByName('Email')[0].value;
+            var subject = document.getElementsByName('subject')[0].value;
+            var message = document.getElementsByName('message')[0].value;
+
+            // Prepare data for submission
+            var formData = {
+                name: name,
+                email: email,
+                subject: subject,
+                message: message
+            };
+
+            // Send data to the server using AJAX
+            fetch('contact_form.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    // You can handle the response as needed
+                    if (data.success) {
+                        alert("Form submitted successfully!");
+                        // Optionally, reset the form
+                        document.getElementById('contactForm').reset();
+                    } else {
+                        alert("Form submission failed. Please try again.");
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert("An error occurred. Please try again later.");
+                });
+        }
+    </script>
 
     <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
