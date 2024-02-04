@@ -81,7 +81,7 @@ const events = {
       name: "LLM Workshop",
     },
     {
-      id: "dataengines",
+      id: "dataworkshop",
       name: "Data Engines Workshop",
     },
     {
