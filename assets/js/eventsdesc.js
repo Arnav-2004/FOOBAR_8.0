@@ -104,7 +104,7 @@ const events = {
     duration: "TBD",
     type: "Technical",
     eventsize: "Team: 1-3",
-    date: "February 5, 6",
+    date: "February 8, 9",
     time: "4:00 PM",
     venue: "Venue: TBD",
     club: "Dossier Arcade",
