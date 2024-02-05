@@ -73,7 +73,7 @@ const events = {
     duration: "3 hours",
     type: "Technical",
     eventsize: "Team: 2-4",
-    date: "February 15, 19",
+    date: "February 5, 9",
     time: "12:00 PM",
     venue: "Venue: TBD",
     club: "Web Dev Club",
