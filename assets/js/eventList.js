@@ -15,24 +15,12 @@ const eventList = {
       venue: "TBD",
       register: "https://forms.gle/Dem1C1wQrGPb98sG9",
       more: "event.html?event=pixelscript",
-    },
-    {
-      id: "vividinsights",
-      name: "Vivid Insights",
-      time: "4:00 PM",
-      venue: "TBD",
-      register: "https://forms.gle/3rXTxChwmbEgH7BaA",
-      more: "event.html?event=vividinsights",
-    },
+    }
   ],
   six: [
     {
-      id: "vividinsights",
-      name: "Vivid Insights",
-      time: "4:00 PM",
-      venue: "TBD",
-      register: "https://forms.gle/3rXTxChwmbEgH7BaA",
-      more: "event.html?event=vividinsights",
+      id: "nothing",
+      type: "noevent",
     },
   ],
   seven: [
@@ -54,6 +42,14 @@ const eventList = {
       register: "https://forms.gle/rFP1Tp4meknkj74F7",
       more: "event.html?event=webcanvas",
     },
+    {
+      id: "vividinsights",
+      name: "Vivid Insights",
+      time: "4:00 PM",
+      venue: "TBD",
+      register: "https://forms.gle/3rXTxChwmbEgH7BaA",
+      more: "event.html?event=vividinsights",
+    },
   ],
   nine: [
     {
@@ -71,6 +67,14 @@ const eventList = {
       venue: "TBD",
       register: "https://forms.gle/Dem1C1wQrGPb98sG9",
       more: "event.html?event=pixelscript",
+    },
+    {
+      id: "vividinsights",
+      name: "Vivid Insights",
+      time: "4:00 PM",
+      venue: "TBD",
+      register: "https://forms.gle/3rXTxChwmbEgH7BaA",
+      more: "event.html?event=vividinsights",
     },
   ],
   ten: [
